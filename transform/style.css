@@ -1,0 +1,40 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(80, 76, 76);
+    margin: 20px;
+    display: inline-block;
+}
+
+
+.translate:hover {
+    transform: translate(10px, 10px);
+    transform-origin: top left;    
+    background-color: rgb(207, 23, 23);
+}
+
+.rotate:hover {
+    transform: rotate(-45deg);
+    background-color: rgb(71, 39, 39);
+}
+
+.scale:hover {
+    transform: scale(0.5);
+    background-color: rgb(41, 23, 207);
+}
+
+.skew:hover {
+    transform: skew(20deg);
+    background-color: rgb(173, 207, 23);
+}
+
+.all:hover {
+    transform: translate(30px, 30px) rotate(30deg) scale(0.8) skew(10deg, 15deg);
+    background-color: rgb(47, 12, 128);
+}
+
+._3D:hover {
+    transform: rotateX(45deg) rotateY(45deg);
+    background-color: rgb(207, 23, 23);
+    perspective: 100px;
+}
