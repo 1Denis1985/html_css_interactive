@@ -1,15 +1,22 @@
 .top {
     border: 1px solid rgb(240, 0, 120);
+    height: auto;
 }
 
 .top＿content {
     border: 1px solid magenta;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .menu {
     border: 1px solid green;
+    height: auto;
 }
 
 .top＿info {
     border: 1px solid blue;
+    margin-top: 10px;
+    margin-bottom: 10%;
+    width: 300px;
 }
